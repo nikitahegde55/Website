@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://thumbs.dreamstime.com/b/intricate-close-up-view-green-wheat-plants-sunlit-field-image-showcases-beauty-nature-agriculture-326144883.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #28a745;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: 700;
+            text-transform: capitalize;
+            color: #fff;
+        }
+
+        .content {
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="container">
+        <h1>About Us</h1>
+        <div class="content">
+            <h2>Our Mission</h2>
+            <p>We are dedicated to providing detailed and useful information about plant nutrients to gardeners, farmers, and plant enthusiasts. Our platform aims to help users understand how to care for plants by giving them the knowledge they need to identify nutrient deficiencies and improve plant health.</p>
+
+            <h2>Our Team</h2>
+            <p>We are a team of agriculture experts, horticulturists, and environmentalists working together to bring you the best plant care resources. We believe in simplifying plant nutrition, making it accessible for everyone, whether you're a hobbyist or a professional gardener.</p>
+
+            <h2>Our Vision</h2>
+            <p>Our vision is to build a world where plant care is made simple, effective, and sustainable, allowing anyone to grow healthy, thriving plants.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Plant Nutrient Details. All Rights Reserved.</p>
+    </div>
+    <iframe src="chatbot/chatbot.html" width="320" height="480" style="border:none; position: fixed; bottom: 10px; right: 10px; z-index: 1000;"></iframe>
+
+</body>
+</html>
